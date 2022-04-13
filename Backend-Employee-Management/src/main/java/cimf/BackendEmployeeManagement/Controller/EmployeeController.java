@@ -5,7 +5,7 @@ import cimf.BackendEmployeeManagement.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @RestController
@@ -47,6 +47,7 @@ public class EmployeeController {
     }
 
     //delete the employee
+    @Transactional
     @DeleteMapping("/delete/{id}")
     //we put ? because that will return nothing (void method)
     public ResponseEntity<?> deleteEmployee(@PathVariable("id") Long id){

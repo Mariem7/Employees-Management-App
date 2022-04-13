@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c84551-542f-4ecf-8841-685a957ba4fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_22,_1_53_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_22,_1_53_AM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_13_22__1_53_AM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend-Employee-Management/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Employees-Management-App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Employees-Management-App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/BackendEmployeeManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/BackendEmployeeManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/Controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/Controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-Employee-Management/src/main/java/cimf/BackendEmployeeManagement/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee/employee.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend-Employee-Management/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend-Employee-Management/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Backend-Branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -79,7 +90,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/lenovo/Bureau/Employees-Management-App/Backend-Employee-Management",
+    "last_opened_file_path": "/home/lenovo/Bureau/Employees-Management-App/Backend-Employee-Management/src/main/java",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/home/lenovo/Bureau/Employees-Management-App/Frontend-Employee-Management/node_modules/typescript/lib"
   },
@@ -93,17 +104,34 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cimf.BackendEmployeeManagement.exception" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backend-Employee-Management/src/main/java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backend-Employee-Management/src/main" />
       <recent name="$PROJECT_DIR$/Frontend-Employee-Management/src/app/Employee" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.BackendEmployeeManagementApplication">
+    <configuration name="Angular Application (Frontend-Employee-Management)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="BackendEmployeeManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Backend-Employee-Management" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cimf.BackendEmployeeManagement.BackendEmployeeManagementApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Angular CLI Server (Frontend-Employee-Management)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Frontend-Employee-Management/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,6 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649800196216</updated>
       <workItem from="1649800198937" duration="10563000" />
+      <workItem from="1649838490583" duration="2561000" />
     </task>
     <servers />
   </component>
